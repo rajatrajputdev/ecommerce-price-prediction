@@ -2,6 +2,8 @@
 
 A small Linear Regression-based model for predicting the yearly cost spent by a customer on an eCommerce store. This project covers data analysis, model training, and deployment using Streamlit for easy interaction.
 
+Specially handcrafted for CodeZen Hackathon -> [Link](https://codezen2025.devfolio.co/overview)
+
 ## Demo
 ![demo_image](https://raw.githubusercontent.com/rajatrajputdev/ecommerce-price-prediction/refs/heads/main/resources/demonstration.png)
 
@@ -45,10 +47,9 @@ Ensure you have the following installed:
 
 ## Dataset
 The dataset contains customer-related features such as:
-- Age
-- Annual Income
+- Average Session Length
 - Time spent on the website
-- Purchase history
+- Time spent on the app
 - Membership status
 
 These features help predict the yearly spending of a customer.
@@ -57,9 +58,8 @@ These features help predict the yearly spending of a customer.
 We use **Linear Regression**, a simple yet powerful algorithm, to predict yearly cost spending based on customer features. The model is trained using `scikit-learn` and evaluated for accuracy.
 
 ## Deployment
-This project can be deployed using:
+This project is deployed using:
 - **Streamlit Sharing:** Quick and easy deployment.
-- **Heroku:** Deploy with a Flask wrapper for production-ready applications.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
